@@ -1,13 +1,16 @@
 @media screen and (max-width:1140px) {
-    .films__wrap{
+    .films__wrap {
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
     }
 }
 
-
-
+@media screen and (max-width:768px) {
+    .trailer__post {
+        width: 100%;
+    }
+}
 
 
 @media screen and (max-width:640px) {
@@ -38,6 +41,7 @@
         align-items: center;
     }
 }
+
 @media screen and (max-width:360px) {
     .banner__h {
         font-size: 28px;
